@@ -1,0 +1,54 @@
+<?php //App_Entity_Restaurant
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Restaurant',
+                'id',
+                'nom',
+                'couverts',
+                'ouv_midi',
+                'ferm_midi',
+                'ouv_soir',
+                'ferm_soir',
+                'ouvMidi',
+                'fermMidi',
+                'ouvSoir',
+                'fermSoir',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'nom' => $o[2],
+                    'couverts' => $o[3],
+                    'ouv_midi' => $o[4],
+                    'ferm_midi' => $o[5],
+                    'ouv_soir' => $o[6],
+                    'ferm_soir' => $o[7],
+                    'ouvMidi' => $o[8],
+                    'fermMidi' => $o[9],
+                    'ouvSoir' => $o[10],
+                    'fermSoir' => $o[11],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

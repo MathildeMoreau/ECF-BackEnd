@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+
+public_photos:
+    path: '/public/upload/images/plats/{filename}'
+    controller: App\Controller\PhotoController::servePhoto
